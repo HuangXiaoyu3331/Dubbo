@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: consumer
+server:
+  port: 8090
+dubbo:
+  registry:
+    address: zookeeper://localhost:2181
